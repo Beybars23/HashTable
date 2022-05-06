@@ -83,7 +83,7 @@ public class HashTable {
 
         return hashValue;
     }
-    public void printHashTable() {
+    public void print() {
         System.out.println();
         for (int i = 0; i < hashTable.length; i++) {
             System.out.print("Hash: " + i + " " + "Keys: " );
